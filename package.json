@@ -1,0 +1,9 @@
+{
+  "name": "tss-nitro-hmr-issue",
+  "type": "module",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "dev": "bun run --cwd packages/web dev"
+  }
+}

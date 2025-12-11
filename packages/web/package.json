@@ -1,0 +1,30 @@
+{
+  "name": "@tss-nitro-hmr-issue/web",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@tss-nitro-hmr-issue/ui": "workspace:*",
+    "@tanstack/react-router": "1.141.1",
+    "@tanstack/react-start": "1.141.1",
+    "@vitejs/plugin-react": "5.1.2",
+    "react": "19.2.2",
+    "react-dom": "19.2.2",
+    "vite": "7.2.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.18",
+    "@types/node": "25.0.0",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "nitro": "3.0.1-alpha.1",
+    "tailwindcss": "4.1.18",
+    "typescript": "5.9.3",
+    "vite-tsconfig-paths": "5.1.4",
+    "wrangler": "4.54.0"
+  }
+}
