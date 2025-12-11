@@ -20,7 +20,7 @@ export const Route = createRootRoute({
         content: "width=device-width, initial-scale=1",
       },
       {
-        title: "TanStack Bug",
+        title: "TSS Nitro HMR Issue",
       },
     ],
     links: [{ rel: "stylesheet", href: styles }],
